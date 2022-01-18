@@ -1,0 +1,10 @@
+[meta]
+name = "ghostStartTimeModifier"
+author = "MiThyX"
+category = "Race"
+blocks = [ "Plugin_ghostStartTimeModifier" ]
+siteid = 62
+version = "1.0"
+
+[script]
+imports = ["Icons.as"]
