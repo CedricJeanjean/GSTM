@@ -90,10 +90,6 @@ void Main() {
         
         auto player = ControlledPlayer;
 		if (player !is null) {
-            auto raceTime = player.ScriptAPI.CurrentRaceTime;
-            if (raceTime < 0 && lastRaceTime > raceTime) {
-				//ClearTemporaryGhosts();
-            }
             lastRaceTime = raceTime;
         }
 
